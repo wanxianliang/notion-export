@@ -19,11 +19,11 @@ pip3 install -r requirements.txt
 **Step 3.**  Get your token_v2 and url by follow these  steps
 
 1. go to https://www.notion.so/ and then login in
-2. ![image-20201213104822053](./images/image-url.png)
+2. ![image-20201213104822053](https://api.xiaozhitodo.com:9999/public/image-url.png)
 
 3.open browser development tool you can get your token_v2 and copy it`s value
 
-![image-20201213105143925](./images/image-token_v2.png)
+![image-20201213105143925](https://api.xiaozhitodo.com:9999/public/image-token_v2.png)
 
 
 
