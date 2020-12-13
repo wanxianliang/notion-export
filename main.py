@@ -6,7 +6,6 @@ from sys import argv
 
 # run
 def run(token, _url):
-    # 导出
     print("start export notion file")
     try:
         export_cli(token, _url, 1)
@@ -14,13 +13,11 @@ def run(token, _url):
         print("export notion file fail checkout your token or url")
     else:
         print("finish export notion file")
-        # 压缩
         print("start compress output dir ")
         target = './notion2md_output'
         compress(target, "notionExport.zip")
         print("finish compress output dir to notionExport.zip")
-        # 清理操作
-        print("clean output dir")
+        print("start clean output dir")
         os.system(" rm -rf ./notion2md_output")
         print(" everything is done ")
 
